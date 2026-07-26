@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ritesh Udupa — Engineering Tools</title>
+  <meta name="description" content="A collection of free, browser-based tools for embedded, automotive, and real-time systems engineers. No installs, no sign-up — built with vanilla HTML5, Canvas, and JavaScript." />
+  <meta name="author" content="Ritesh Udupa" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Engineering Tools by Ritesh Udupa" />
+  <meta property="og:description" content="Free, browser-based tools for embedded, automotive, and real-time systems engineers." />
+  <meta property="og:url" content="https://rudupa.github.io/" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hub-header">
+    <h1>Engineering Tools</h1>
+    <p class="tagline">Free, browser-based tools for embedded, automotive &amp; real-time systems engineers.</p>
+    <p class="byline">by <a href="https://www.linkedin.com/in/ritesh-udupa-4b694619/" target="_blank" rel="noopener">Ritesh Udupa</a></p>
+    <p class="hub-note">No installs. No sign-up. Everything runs in your browser.</p>
+  </header>
+
+  <main class="grid">
+    <!-- TimeSync -->
+    <a class="card" href="https://rudupa.github.io/EthTimeSync_Sim/">
+      <div class="card-badge" style="--c: #58a6ff;">gPTP · TSN</div>
+      <h2>Time Synchronization Visualizer</h2>
+      <p>Watch gPTP (IEEE 802.1AS) and AUTOSAR STBM sync in action — Sync/Follow_Up/Pdelay,
+         offset math, HW vs SW timestamping, and a PI frequency servo.</p>
+      <div class="card-links">
+        <span class="pill">Open tool →</span>
+        <a class="pill ghost" href="https://github.com/rudupa/EthTimeSync_Sim" target="_blank" rel="noopener">Source</a>
+      </div>
+    </a>
+
+    <!-- ChronoLens -->
+    <a class="card" href="https://rudupa.github.io/ChronoLens/">
+      <div class="card-badge" style="--c: #f0b429;">RTOS · Scheduling</div>
+      <h2>ChronoLens</h2>
+      <p>RTOS scheduling simulator. Compare Rate Monotonic, EDF, Fixed Priority, and
+         Round Robin on a live Gantt chart with deadline-miss and utilization analysis.</p>
+      <div class="card-links">
+        <span class="pill">Open tool →</span>
+        <a class="pill ghost" href="https://github.com/rudupa/ChronoLens" target="_blank" rel="noopener">Source</a>
+      </div>
+    </a>
+
+    <!-- ELF Analyzer -->
+    <a class="card" href="https://rudupa.github.io/ElfFileAnalyzer/">
+      <div class="card-badge" style="--c: #3fb950;">ELF · Binaries</div>
+      <h2>ELF File Analyzer</h2>
+      <p>Inspect ELF executables, shared objects, and firmware — headers, sections,
+         segments, and a memory-layout view. 100% client-side; nothing is uploaded.</p>
+      <div class="card-links">
+        <span class="pill">Open tool →</span>
+        <a class="pill ghost" href="https://github.com/rudupa/ElfFileAnalyzer" target="_blank" rel="noopener">Source</a>
+      </div>
+    </a>
+  </main>
+
+  <footer class="hub-footer">
+    <div class="footer-links">
+      <a href="https://www.linkedin.com/in/ritesh-udupa-4b694619/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/rudupa" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <p>&copy; <span id="footerYear">2026</span> Ritesh Udupa · Built with vanilla HTML5, Canvas &amp; JavaScript</p>
+  </footer>
+
+  <script>document.getElementById('footerYear').textContent = new Date().getFullYear();</script>
+</body>
+</html>
