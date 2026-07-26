@@ -15,6 +15,8 @@ lives in its own repository with its own project Page; this hub just links to th
 | **Time Synchronization Visualizer** | gPTP / IEEE 802.1AS & AUTOSAR STBM sync | [open](https://rudupa.github.io/EthTimeSync_Sim/) | [repo](https://github.com/rudupa/EthTimeSync_Sim) |
 | **ChronoLens** | RTOS scheduling simulator (RM/EDF/FP/RR) | [open](https://rudupa.github.io/ChronoLens/) | [repo](https://github.com/rudupa/ChronoLens) |
 | **ELF File Analyzer** | Inspect ELF headers, sections & segments | [open](https://rudupa.github.io/ElfFileAnalyzer/) | [repo](https://github.com/rudupa/ElfFileAnalyzer) |
+| **PCAP Analyzer** | Parse .pcap captures (Ethernet/IP/TCP/UDP/ICMP/ARP) | [open](https://rudupa.github.io/PCAP_Analyzer/) | [repo](https://github.com/rudupa/PCAP_Analyzer) |
+| **Binary File Viewer** | Hex / ASCII viewer with a data inspector | [open](https://rudupa.github.io/BinaryFileViewer/) | [repo](https://github.com/rudupa/BinaryFileViewer) |
 
 ## Adding a new tool
 
